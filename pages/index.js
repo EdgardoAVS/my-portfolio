@@ -5,6 +5,7 @@ import {
   AiFillGithub,
   AiFillTwitterSquare,
 } from "react-icons/ai";
+import Link from "next/link";
 import Image from "next/image";
 import EdgardoAVS from "../public/EdgardoAVS.png";
 
@@ -47,9 +48,23 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillLinkedin />
-            <AiFillGithub />
-            <AiFillTwitterSquare />
+            <Link href="https://www.linkedin.com/in/edgardoavs/">
+              <a target="_blank" rel="noopener noreferrer">
+                <AiFillLinkedin />
+              </a>
+            </Link>
+            <Link href="https://github.com/EdgardoAVS">
+              <a target="_blank" rel="noopener noreferrer">
+              <AiFillGithub />
+              </a>
+            </Link>
+            <Link href="https://twitter.com/EdgardoAVS">
+              <a target="_blank" rel="noopener noreferrer">
+              <AiFillTwitterSquare />
+              </a>
+            </Link>
+            
+            
           </div>
           <div className="bg-gradient-to-b from-teal-500 overflow-hidden relative rounded-full w-80 h-80 mt-20 mx-auto">
             <Image
