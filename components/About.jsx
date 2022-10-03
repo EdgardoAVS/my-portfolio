@@ -28,7 +28,7 @@ export const About = () => {
             </p>
           </Link>
         </div>
-        <div className=" h-auto w-full m-auto rounded-full flex items-center justify-center hover:scale-105 ease-in duration-300">
+        <div className="">
           <Image src={EdgardoAVS} alt="Edgardo Vargas imagen" />
         </div>
       </div>
