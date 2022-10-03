@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import EdgardoAVS from "../public/assets/Logotipo/Logo-rm-bg.png";
 
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
@@ -25,7 +26,7 @@ export const Navbar = () => {
         <Image
           width={200}
           height={200}
-          src="/../public/assets/Logotipo/Logo-rm-bg.png"
+          src={EdgardoAVS}
           alt="Edgardo Vargas logotipo"
         />
         <div>
