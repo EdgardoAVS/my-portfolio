@@ -14,7 +14,7 @@ export const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             I specialize in building responsive web applications, taking into
-            account very important factors such as accessibility, user
+            account very important factors such as, accessibility, user
             experience and site optimization for search engines and users.
           </p>
           <p className="py-2 text-gray-600">

@@ -39,13 +39,13 @@ export const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "absolute w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
-          : "absolute w-full h-20 z-[100]"
+          ? "absolute w-full h-20 z-[100] ease-in-out duration-300"
+          : "absolute shadow-sm w-full h-20 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 max-w-7xl m-auto">
         <Link href="/">
-          <a>
+          <a className="relative top-1">
             <Image
               width={200}
               height={200}
@@ -97,7 +97,7 @@ export const Navbar = () => {
           <div className="">
             <div className="flex w-full h-12 items-center justify-between">
               <Link href="/">
-                <a>
+                <a className="relative top-2">
                   <Image
                     width={120}
                     height={120}
